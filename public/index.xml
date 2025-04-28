@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WeiShxBlog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on WeiShxBlog</description>
+    <image>
+      <title>WeiShxBlog</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Apr 2025 00:03:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamental Datatype</title>
+      <link>http://localhost:1313/program-language/cpp/fundamental-datatype/</link>
+      <pubDate>Sat, 19 Apr 2025 00:03:15 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/fundamental-datatype/</guid>
+      <description>&lt;h1 id=&#34;基础数据&#34;&gt;基础数据&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Types&lt;/th&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;float&lt;/td&gt;
+          &lt;td&gt;浮点数&lt;/td&gt;
+          &lt;td&gt;有小数部分的数字&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Debug</title>
+      <link>http://localhost:1313/program-language/cpp/debug/</link>
+      <pubDate>Thu, 17 Apr 2025 21:43:17 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/debug/</guid>
+      <description>&lt;h1 id=&#34;常见错误&#34;&gt;常见错误&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;语法错误&lt;/li&gt;
+&lt;li&gt;语义错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;调试通用方法&#34;&gt;调试通用方法&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;找到问题的根本原因&lt;/li&gt;
+&lt;li&gt;了解问题发生的原因&lt;/li&gt;
+&lt;li&gt;确定如何解决问题&lt;/li&gt;
+&lt;li&gt;修复导致问题的问题&lt;/li&gt;
+&lt;li&gt;测试确保问题已被解决&lt;/li&gt;
+&lt;li&gt;重新测试确保没有出现新的问题&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Design Your Program</title>
+      <link>http://localhost:1313/program-language/cpp/design-your-program/</link>
+      <pubDate>Thu, 17 Apr 2025 21:21:56 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/design-your-program/</guid>
+      <description>&lt;h1 id=&#34;设计步骤&#34;&gt;设计步骤&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;明确目标&lt;/li&gt;
+&lt;li&gt;明确需要什么，而不是怎么做&lt;/li&gt;
+&lt;li&gt;明确工具、目标和备份计划&lt;/li&gt;
+&lt;li&gt;将复杂问题拆分为简单问题&lt;/li&gt;
+&lt;li&gt;弄明白事件顺序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;实施步骤&#34;&gt;实施步骤&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;概述主要功能&lt;/li&gt;
+&lt;li&gt;实施每个函数&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;建议&#34;&gt;建议&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;保持程序能够简单的开始运行&lt;/li&gt;
+&lt;li&gt;随时间增加功能&lt;/li&gt;
+&lt;li&gt;一次专注于一个任务&lt;/li&gt;
+&lt;li&gt;边写边测试代码&lt;/li&gt;
+&lt;li&gt;不要投资在早期的完美代码&lt;/li&gt;
+&lt;li&gt;优化可维护性，而不是性能&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Temperal Fusion Transformer</title>
+      <link>http://localhost:1313/time-serises-forecast/temperal-fusion-transformer/</link>
+      <pubDate>Wed, 16 Apr 2025 18:52:04 +0800</pubDate>
+      <guid>http://localhost:1313/time-serises-forecast/temperal-fusion-transformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Categorical</title>
+      <link>http://localhost:1313/program-language/python/pandas/categorical/</link>
+      <pubDate>Wed, 16 Apr 2025 18:14:51 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/python/pandas/categorical/</guid>
+      <description>&lt;p&gt;&lt;code&gt;categorical&lt;/code&gt;是一种数据类型，用在有限、固定数量的可能值上&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python测试 Pytest</title>
+      <link>http://localhost:1313/program-language/python/python%E6%B5%8B%E8%AF%95-pytest/</link>
+      <pubDate>Tue, 15 Apr 2025 17:39:18 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/python/python%E6%B5%8B%E8%AF%95-pytest/</guid>
+      <description>&lt;h1 id=&#34;pytest&#34;&gt;Pytest&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/program-language/cpp/functions/</link>
+      <pubDate>Mon, 14 Apr 2025 01:28:26 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/functions/</guid>
+      <description>&lt;h1 id=&#34;状态代码&#34;&gt;状态代码&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;main()&lt;/code&gt;的返回值&lt;/p&gt;
+&lt;p&gt;状态代码用于指示程序是否成功，状态码&lt;code&gt;0&lt;/code&gt;表示程序运行正常，非零状态代码通常用于表示某种故障。&lt;/p&gt;
+&lt;p&gt;如果未提供&lt;code&gt;return&lt;/code&gt;语句，函数&lt;code&gt;main()&lt;/code&gt;隐式返回0&lt;/p&gt;
+&lt;h1 id=&#34;函数&#34;&gt;函数&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;返回值函数: &lt;strong&gt;函数只能返回单个值&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;非返回值函数: &lt;code&gt;void&lt;/code&gt;作为返回类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;void&lt;/code&gt;函数不需要&lt;code&gt;return&lt;/code&gt;语句&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do not repeat yourself&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;函数参数&#34;&gt;函数参数&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;未引用的参数: 函数参数在函数体中没有被使用&lt;/li&gt;
+&lt;li&gt;未命名的参数: 省略函数参数名称，如&lt;code&gt;void DoSome(int /*count*/)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;局部变量&#34;&gt;局部变量&lt;/h1&gt;
+&lt;p&gt;局部变量的定义应该尽可能接近第一次合理使用&lt;/p&gt;
+&lt;h1 id=&#34;forward-declaration&#34;&gt;forward declaration&lt;/h1&gt;
+&lt;p&gt;可以解决循环依赖的问题&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>对象和变量</title>
+      <link>http://localhost:1313/program-language/cpp/object-and-variable/</link>
+      <pubDate>Sat, 12 Apr 2025 10:11:19 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/object-and-variable/</guid>
+      <description>&lt;h1 id=&#34;对象&#34;&gt;对象&lt;/h1&gt;
+&lt;p&gt;Object是一个能够存储值的存储区域（通常是内存）&lt;/p&gt;
+&lt;h1 id=&#34;变量初始化&#34;&gt;变量初始化&lt;/h1&gt;
+&lt;h2 id=&#34;变量初始化-1&#34;&gt;变量初始化&lt;/h2&gt;
+&lt;h3 id=&#34;复制初始化&#34;&gt;复制初始化&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    int a = 5;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;允许向下转换&lt;/p&gt;
+&lt;h3 id=&#34;直接初始化&#34;&gt;直接初始化&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    int a(5);
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;允许向下转换&lt;/p&gt;
+&lt;h3 id=&#34;列表初始化&#34;&gt;列表初始化&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    int a{5};
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;允许对列表的值进行初始化&lt;/p&gt;
+&lt;p&gt;不允许向下转换&lt;/p&gt;
+&lt;h2 id=&#34;值初始化和零初始化&#34;&gt;值初始化和零初始化&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    int width {};
+    int width {0};
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;maybe_unused&#34;&gt;[[maybe_unused]]&lt;/h2&gt;
+&lt;p&gt;允许编译器接受未使用的变量，不生成警告&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    [[maybe_unused]] double pi {3.14};
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learncpp.com/&#34;&gt;learncpp&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>随笔</title>
+      <link>http://localhost:1313/program-language/python/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Mon, 24 Mar 2025 13:35:37 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/python/%E9%9A%8F%E7%AC%94/</guid>
+      <description>&lt;h1 id=&#34;python&#34;&gt;python&lt;/h1&gt;
+&lt;p&gt;类的super()函数用于将方法调用委托给type的父类或兄弟类&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C&#43;&#43; Polymorphism</title>
+      <link>http://localhost:1313/program-language/cpp/cpp-polymorphism/</link>
+      <pubDate>Mon, 24 Mar 2025 12:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/cpp-polymorphism/</guid>
+      <description>&lt;h1 id=&#34;polymorphism&#34;&gt;Polymorphism&lt;/h1&gt;
+&lt;p&gt;c++的多态性是指一个实体可以根据上下文来变换自身行为的能力。&lt;/p&gt;
+&lt;p&gt;多态处理可以发生在以下两种情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Compile-time(静态): 在程序开始时被调用实例已经清楚&lt;/li&gt;
+&lt;li&gt;Run-time(动态): 被调用实例仅在执行时才清楚，例如依赖于run-time值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;c++中的多态主要与动态多态(overriding)相联系&lt;/p&gt;
+&lt;h1 id=&#34;多态性形式&#34;&gt;多态性形式&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Ad-hoc polymorphism: 涉及到一组独立指定的类型，如函数重载&lt;/li&gt;
+&lt;li&gt;Parametric polymorphism: 涉及到泛型，如模板&lt;/li&gt;
+&lt;li&gt;subtyping: 在一个元素的子类型上操作时，如虚函数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;h1 id=&#34;cmake&#34;&gt;CMAKE&lt;/h1&gt;
+&lt;p&gt;COMPILE_OPTION 取代了 COMPILE_FLAGS
+CMAKE_&lt;LANGUAGE&gt;_COMPILER指定编译器&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

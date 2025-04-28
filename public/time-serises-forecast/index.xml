@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time-Serises-Forecasts on WeiShxBlog</title>
+    <link>http://localhost:1313/time-serises-forecast/</link>
+    <description>Recent content in Time-Serises-Forecasts on WeiShxBlog</description>
+    <image>
+      <title>WeiShxBlog</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Apr 2025 18:52:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/time-serises-forecast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temperal Fusion Transformer</title>
+      <link>http://localhost:1313/time-serises-forecast/temperal-fusion-transformer/</link>
+      <pubDate>Wed, 16 Apr 2025 18:52:04 +0800</pubDate>
+      <guid>http://localhost:1313/time-serises-forecast/temperal-fusion-transformer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
