@@ -160,3 +160,7 @@ markup:
 #     disableInlineCSS: true
 #   x:
 #     disableInlineCSS: true
+
+caches:
+  images:
+    dir: :cacheDir/images
