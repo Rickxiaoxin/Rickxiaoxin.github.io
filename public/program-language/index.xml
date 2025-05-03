@@ -11,8 +11,35 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Apr 2025 00:03:15 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 15:32:17 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/program-language/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delegating Constructor</title>
+      <link>http://localhost:1313/program-language/cpp/delegating-constructor/</link>
+      <pubDate>Sat, 03 May 2025 15:32:17 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cpp/delegating-constructor/</guid>
+      <description>&lt;p&gt;委托构造函数调用同一类的另一个构造函数，通过添加执行初始化步骤的函数来减少重复代码。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;struct A {
+int a;
+float b;
+bool c;
+// standard constructor:
+A(int a1, float b1, bool c1) : a(a1), b(b1), c(c1) {
+// do a lot of work
+}
+A(int a1, float b1) : A(a1, b1, false) {} // delegate construtor
+A(float b1) : A(100, b1, false) {} // delegate construtor
+};
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Find Packge</title>
+      <link>http://localhost:1313/program-language/cmake/find-packge/</link>
+      <pubDate>Tue, 29 Apr 2025 13:53:47 +0800</pubDate>
+      <guid>http://localhost:1313/program-language/cmake/find-packge/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_package()
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Fundamental Datatype</title>
       <link>http://localhost:1313/program-language/cpp/fundamental-datatype/</link>

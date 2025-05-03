@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head>
+	<meta name="generator" content="Hugo 0.145.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Program-Languages | WeiShxBlog</title>
-<meta name="keywords" content="">
-<meta name="description" content="Program-Languages - WeiShxBlog">
+<title>WeiShxBlog</title>
+
+<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Theme PaperMod">
-<link rel="canonical" href="http://localhost:1313/program-language/">
+<link rel="canonical" href="http://localhost:1313/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +19,9 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/program-language/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/program-language/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,30 +58,28 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/program-language/">
+</noscript><meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="WeiShxBlog">
-  <meta property="og:title" content="Program-Languages">
+  <meta property="og:title" content="WeiShxBlog">
   <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
       <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
-<meta name="twitter:title" content="Program-Languages">
+<meta name="twitter:title" content="WeiShxBlog">
 <meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
-
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Program-Languages",
-      "item": "http://localhost:1313/program-language/"
-    }
+  "@type": "Organization",
+  "name": "WeiShxBlog",
+  "url": "http://localhost:1313/",
+  "description": "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
   ]
 }
 </script>
@@ -144,23 +144,10 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
-  <h1>
-    Program-Languages
-    <a href="/program-language/index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-  </h1>
-</header>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Delegating Constructor
+    <h2 class="entry-hint-parent">随笔
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
           <path
@@ -170,16 +157,16 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>委托构造函数调用同一类的另一个构造函数，通过添加执行初始化步骤的函数来减少重复代码。
-struct A { int a; float b; bool c; // standard constructor: A(int a1, float b1, bool c1) : a(a1), b(b1), c(c1) { // do a lot of work } A(int a1, float b1) : A(a1, b1, false) {} // delegate construtor A(float b1) : A(100, b1, false) {} // delegate construtor }; </p>
+    <p>python 类的super()函数用于将方法调用委托给type的父类或兄弟类
+</p>
   </div>
-  <footer class="entry-footer"><span title='2025-05-03 15:32:17 +0800 CST'>May 3, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to Delegating Constructor" href="http://localhost:1313/program-language/cpp/delegating-constructor/"></a>
+  <footer class="entry-footer"><span title='2025-03-24 13:35:37 +0800 CST'>March 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to 随笔" href="http://localhost:1313/program-language/python/%E9%9A%8F%E7%AC%94/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Find Packge
+    <h2 class="entry-hint-parent">C&#43;&#43; Polymorphism
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
           <path
@@ -189,68 +176,19 @@ struct A { int a; float b; bool c; // standard constructor: A(int a1, float b1, 
     </h2>
   </header>
   <div class="entry-content">
-    <p>find_package() </p>
+    <p>Polymorphism c&#43;&#43;的多态性是指一个实体可以根据上下文来变换自身行为的能力。
+多态处理可以发生在以下两种情况：
+Compile-time(静态): 在程序开始时被调用实例已经清楚 Run-time(动态): 被调用实例仅在执行时才清楚，例如依赖于run-time值 c&#43;&#43;中的多态主要与动态多态(overriding)相联系
+多态性形式 Ad-hoc polymorphism: 涉及到一组独立指定的类型，如函数重载 Parametric polymorphism: 涉及到泛型，如模板 subtyping: 在一个元素的子类型上操作时，如虚函数 Reference CMAKE COMPILE_OPTION 取代了 COMPILE_FLAGS CMAKE__COMPILER指定编译器
+</p>
   </div>
-  <footer class="entry-footer"><span title='2025-04-29 13:53:47 +0800 CST'>April 29, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to Find Packge" href="http://localhost:1313/program-language/cmake/find-packge/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Fundamental Datatype
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>基础数据 Types Category Meaning float 浮点数 有小数部分的数字 </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-19 00:03:15 +0800 CST'>April 19, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to Fundamental Datatype" href="http://localhost:1313/program-language/cpp/fundamental-datatype/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Debug
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>常见错误 语法错误 语义错误 调试通用方法 找到问题的根本原因 了解问题发生的原因 确定如何解决问题 修复导致问题的问题 测试确保问题已被解决 重新测试确保没有出现新的问题 </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-17 21:43:17 +0800 CST'>April 17, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to Debug" href="http://localhost:1313/program-language/cpp/debug/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Design Your Program
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>设计步骤 明确目标 明确需要什么，而不是怎么做 明确工具、目标和备份计划 将复杂问题拆分为简单问题 弄明白事件顺序 实施步骤 概述主要功能 实施每个函数 测试 建议 保持程序能够简单的开始运行 随时间增加功能 一次专注于一个任务 边写边测试代码 不要投资在早期的完美代码 优化可维护性，而不是性能 </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-17 21:21:56 +0800 CST'>April 17, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to Design Your Program" href="http://localhost:1313/program-language/cpp/design-your-program/"></a>
+  <footer class="entry-footer"><span title='2025-03-24 12:59:14 +0800 CST'>March 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to C&#43;&#43; Polymorphism" href="http://localhost:1313/program-language/cpp/cpp-polymorphism/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="next" href="http://localhost:1313/program-language/page/2/">Next&nbsp;2/3&nbsp;»
+    <a class="prev" href="http://localhost:1313/page/2/">
+      «&nbsp;Prev&nbsp;2/3
     </a>
   </nav>
 </footer>
